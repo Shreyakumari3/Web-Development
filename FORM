@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <form action = "action.php">
+    <h1><b>SIGNUP FORM </b></h1>
+    <label for = "name">
+        <input type="text" id = "name" value = "NAME" name = "Username"> <b>Enter Your Name</b>
+</label>
+<br>
+<br>
+<label for = "Email">
+    <input type ="email" id = "Email" value ="Email" name = "email"> <b>Enter your Email</b>
+ </label>
+<br>
+<br>
+<label for = "password">
+    <input type = "password" id = "password" value = "password" name = "Userpaasword" > <b> Enter your password </b>
+</label>
+<br>
+<br>
+<label for = "City">
+    <select name = "city" id = "city">
+    <option value = ""> City  </option>
+    <option value = "Mumbai"> Mumbai </option>
+    <option value = "Delhi"> Delhi </option>
+    <option value = "Banglore"> Banglore </option>
+    <option value = "Patna"> Patna </option>
+</select>
+</label>
+<br> 
+<br>
+
+<label for = "Contact no ">
+    <input type = "number" value = "Contact No" name = "Contact no">  <b>Contact  No</b></label>
+<br>
+<br>
+<label for = "Gender">
+    <select name = "Gender" id = "Gender">
+    <option value = "">GENDER  </option>
+    <option value = "Male"> Male </option>
+    <option value = "Female"> Female </option>
+    <option value = "Binary"> Binary</option>
+    </select>
+</label>
+<br>
+<br>
+
+<label for = "ComputerScience">
+    <input type = "checkbox" id = "ComputerScience"  value = "Computer Sciennce" name="Course">Computer Science</label>
+    <br>
+
+    <label for = "BSc">
+    <input type = "checkbox" id = "BSc" value = "B.SC"  name="Course" > BSC
+</label>
+<br>
+<br>
+<iframe width="400" height="200" src="https://www.youtube.com/embed/ESnrn1kAD4E?si=CxzkjKpdhQHA5l_4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen> <b>Use this video to learn Css</b></iframe>
+<br>
+<br>
+
+<table>
+    <tr> <b>CONTENT ON THIS BOX <b>
+        <ul><li> SIGNUP PAGE</li> <li>COURSE FOR FREE</li></ul></li> </tr>
+<tr><td>SIGNUP FORM CONTENT<br> <ol><li>NAME</li><LI>EMAIL<LI>PASSWORD</LI><LI>CITY</LI><LI>GENDER</LI></ol></td>
+     </tr>
+    </table>
+<br>
+<br>
+
+<label for = "feedback">
+    <textarea type = "text"  id = "feedback" place = "Write your feedback here" name = "feedback" colspan="2"> Add Your Feedback </textarea>
+</label>
+<br>
+<br>
+<input type = "submit" value = "Submit">
+</form>
+</body>
+
+</html>
